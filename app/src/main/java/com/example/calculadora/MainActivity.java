@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnUno,btnDos,btnTres,btnCuatro,btnCinco,btnSeis,btnSiete,btnOcho,btnNueve,btnCero,btnBorrar,btnRaiz,btnPotencia,btnPorcentaje,btnDiv,btnMul,btnResta,btnSuma,btnMasmenos,btnPunto,btnIgual;
     EditText txtnumero1;
     double num1,num2,res;
-    String Operador;
+    String Operador,numerador;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
